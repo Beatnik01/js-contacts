@@ -1,0 +1,40 @@
+.contact .contact-form,
+.contact-index ul {
+  max-width: 500px;
+}
+.contact h2 {
+  color: tomato;
+}
+.contact .contact-form label,
+.contact-show label {
+  display: inline-block;
+  width: 50px;
+}
+.contact .contact-menu form {
+  display: inline-block;
+}
+
+.contact-show {
+  border: 1px solid grey;
+}
+
+.navbar {
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 80%;
+}
+
+.contact {
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  text-align: center;
+}
+
+.contact-text {
+  margin-bottom: 10px;
+}
+
+.contact-button {
+  margin-bottom: 20px;
+}

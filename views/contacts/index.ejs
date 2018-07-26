@@ -1,0 +1,30 @@
+<html>
+
+<head>
+    <% include ../partials/head %>
+</head>
+
+<body>
+    <% include ../partials/nav %>
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+
+                <div class="contact contact-index center-block">
+                    <ul class="list-group">
+                        <% contacts.forEach(function(contact) { %>
+                            <li class="list-group-item">
+                                <a href="/contacts/<%= contact._id %>">
+                                    <%= contact.name %>
+                                </a>
+                            </li>
+                            <% }) %>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+
+</body>
+
+</html>
