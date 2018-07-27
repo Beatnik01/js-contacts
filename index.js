@@ -7,7 +7,7 @@ var app = express();
 
 // DB setting ...
 mongoose.connect(
-  "mongodb://knv429:ff884724@ds018508.mlab.com:18508/contact_book",
+  "mongodb://ocidos0417:ocidos0417@ds018508.mlab.com:18508/contact_book",
   { useNewUrlParser: true }
 );
 var db = mongoose.connection;
